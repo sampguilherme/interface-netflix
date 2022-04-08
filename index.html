@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>Netflix Clone</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETTLIX</h2>   
+            <h2 class="logo">NETFLIX</h2>   
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -23,18 +28,60 @@
     <main>
         <div class="serie-principal">
             <div class="container">
-                <h3 class="titulo">BROOKLYN NINE-NINE</h3>
+                <h3 class="titulo">BROOKLYN <br> NINE-NINE</h3>
                 <p class="sinopse">O brilhante e imaturo detetive Jake Peralta precisa aprender a seguir as regras e trabalhar em equipe quando um capitão exigente assume o comando de seu esquadrão.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button" class="botao1">
+                        <i class="fa-solid fa-play"></i>
                         Assistir
                     </button>
-                    <Button role="button" class="botao">
+                    <Button role="button" class="botao2">
+                        <i class="fa-solid fa-circle-info"></i>
                         Mais informações
                     </Button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carrosel-series">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-series" src="img/min1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-series" src="img/min10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/bee2d2538f.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
