@@ -1,0 +1,33 @@
+@media  screen and (max-width:880px) {
+
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    .serie-principal {
+        width: 110%;
+    }
+
+    .botao1 {
+        margin-right: 10px;
+    }
+    
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        width: 355px;
+    }
+ 
+}
+
+@media screen and (min-width:1000px) {
+    .serie-principal .sinopse {
+      width: 60%;
+    }
+
+   
+
+}

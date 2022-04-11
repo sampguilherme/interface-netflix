@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
     --vermelho: #E50914;
     --preta: #141414;
@@ -26,8 +28,8 @@ header .container {
 header .logo {
     margin-left: 30px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
 }
 
 header nav {
@@ -50,7 +52,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/bkn99\(2\).jpg');
 
-    height: 400px;
+    height: 500px;
     background-size: cover;
 
     display: flex;
@@ -58,6 +60,7 @@ header nav a:hover {
     justify-content: center;
     align-items: flex-start;
     padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .serie-principal .container {
@@ -130,3 +133,12 @@ header nav a:hover {
     width: 100%;
     display: block;
 }
+
+
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 100%;
+}
+
